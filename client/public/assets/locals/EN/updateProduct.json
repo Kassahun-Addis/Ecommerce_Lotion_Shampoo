@@ -1,0 +1,14 @@
+{
+    "UpdateProduct": " Update Product",
+    "Selectcategory": "Select a category",
+    "UploadPhoto": "Upload Photo",
+    "writename": "write a name",
+    "writeDescription": "write a description",
+    "writePrice":"write a Price",
+    "writequantity": "write a quantity",
+    "SelectShipping": "Select Shipping",
+    "UPDATEPRODUCT":" UPDATE PRODUCT",
+    "DELETEPRODUCT":"DELETE PRODUCT",
+    "No": "No",
+    "Yes":"Yes"
+    }

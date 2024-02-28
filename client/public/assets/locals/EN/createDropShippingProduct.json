@@ -1,0 +1,13 @@
+{
+    "CreateProduct": " Create DropShipping Product",
+    "Selectcategory": "Select a category",
+    "UploadPhoto": "Upload Photo",
+    "writename": "write a name",
+    "writeDescription": "write a description",
+    "writePrice":"write a Price",
+    "writequantity": "write a quantity",
+    "SelectShipping": "Select Shipping",
+    "CREATEPRODUCT":" CREATE PRODUCT",
+    "No": "No",
+    "Yes":"Yes"
+    }

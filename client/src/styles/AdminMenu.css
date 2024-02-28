@@ -1,0 +1,127 @@
+.dashboard-menu {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.dashboard-menu h4 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.dashboard-menu .list-group-item {
+  border: none;
+  background-color: transparent;
+  padding: 10px;
+  color: #123ce2;
+  transition: background-color 0.3s ease;
+  font-size: 18px;
+}
+
+.dashboard-menu .list-group-item:hover {
+  background-color: #e9ecef;
+}
+
+.dashboard-menu .list-group-item.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.dashboard-menu .list-group-item.active:hover {
+  background-color: #007bff;
+}
+
+.dashboard-menu .list-group-item:focus {
+  outline: none;
+}
+
+.dashboard-menu .list-group-item a {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.dashboard-menu .list-group-item a:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.dashboard-menu .list-group-item span {
+  margin-left: 10px;
+  font-weight: bold;
+  color: #2d555a;
+}
+
+.dashboard-menu .list-group-item .icon {
+  margin-right: 10px;
+  font-size: 20px;
+  vertical-align: middle;
+}
+
+.dashboard-menu .list-group-item .text {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+/* Additional styles for a more attractive appearance */
+
+.dashboard-menu {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-menu h4 {
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-menu .list-group-item {
+  border-radius: 4px;
+}
+
+.dashboard-menu .list-group-item:hover {
+  background-color: #f1f3f5;
+  color: #007bff;
+}
+
+.dashboard-menu .list-group-item.active {
+  background-color: #007bff;
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.dashboard-menu .list-group-item.active:hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.dashboard-menu .list-group-item a {
+  transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.dashboard-menu .list-group-item a:hover {
+  color: #007bff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+/* Additional text styles */
+
+.dashboard-menu .list-group-item .text {
+  font-weight: bold;
+  color: #123ce2;
+}
+
+.dashboard-menu .list-group-item .text:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.dashboard-menu .list-group-item .icon {
+  color: #2d555a;
+}

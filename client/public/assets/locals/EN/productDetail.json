@@ -1,0 +1,13 @@
+{
+    "ProductDetails": "Product Details",
+    "Name": " Name",
+    "Description": "Description",
+    "Price": "Price",
+    "Category": "Category",
+    "ADDTOCART": "ADD TO CART",
+     "SimilarProduct" :"Similar Products",
+     "NoSimilar ":"No Similar Products found",
+     "Detail":"More Details"
+    
+   
+  }
