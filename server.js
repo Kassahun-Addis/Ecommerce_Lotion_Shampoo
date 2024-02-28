@@ -9,7 +9,7 @@ import productRoutes from "./routes/productRoutes.js";
 import postRoutes from "./routes/postRoutes.js";
 import dropShippingProductRoutes from "./routes/dropShippingProductRoutes.js";
 import cors from "cors";
-
+import path from 'path';
 //configure env
 dotenv.config();
 
@@ -23,7 +23,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use(morgan("dev"));
-
+app.use(express.static(path.join(__dirname, './client/build')));
 //routes
 app.use("/api/v1/auth", authRoutes);
 app.use("/api/v1/category", categoryRoutes);
@@ -32,9 +32,12 @@ app.use("/api/v1/post", postRoutes);
 app.use("/api/v1/Product", dropShippingProductRoutes);
 
 //rest api
-app.get("/", (req, res) => {
-  res.send("<h1>Welcome to ecommerce app</h1>");
-});
+app.use("*",function(req,res){
+  res.sendFile(path.join(__dirname, './client/build/index.html'));
+})
+// app.get("/", (req, res) => {
+//   res.send("<h1>Welcome to ecommerce app</h1>");
+// });
 
 //PORTz
 const PORT = process.env.PORT || 8080;
