@@ -1,0 +1,13 @@
+{
+    "CreateProduct": "إنشاء منتج",
+    "Selectcategory": "اختر فئة",
+    "UploadPhoto": "تحميل الصورة",
+    "writename": "اكتب الاسم",
+    "writeDescription": "اكتب الوصف",
+    "writePrice": "اكتب السعر",
+    "writequantity": "اكتب الكمية",
+    "SelectShipping": "اختر الشحن",
+    "CREATEPRODUCT": "إنشاء منتج",
+    "No": "لا",
+    "Yes": "نعم"
+}

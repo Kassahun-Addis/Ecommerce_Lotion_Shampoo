@@ -1,0 +1,16 @@
+{
+    "Price": "Price",
+    "Remove": " Remove",
+    "CartSummary": "Cart Summary",
+    "TotalCheckoutPayment": "Total | Checkout | Payment",
+    "total":"total",
+    "CurrentAddress": "Current Address",
+    "UpdateAddress": "Update Address",
+    "updateAddress": "Update Address",
+     "Login":"  Plase Login to checkout",
+     "Processing":"Processing",
+     "MakePayment":"Make Payment"
+
+    
+   
+  }
